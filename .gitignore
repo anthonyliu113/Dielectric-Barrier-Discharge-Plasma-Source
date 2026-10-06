@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# LTspice / ngspice outputs
+*.raw
+*.log
+*.net
+*.op.raw
+simulation/sim_capture.csv
+
+# raw scope dumps go in data/raw (keep processed results)
+data/raw/
